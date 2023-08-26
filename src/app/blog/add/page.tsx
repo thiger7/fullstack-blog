@@ -19,7 +19,6 @@ const postBlog = async (title: string | undefined, description: string | undefin
 
 const PostBlog = () => {
   const router = useRouter();
-
   const titleRef = useRef<HTMLInputElement | null>(null);
   const descriptionRef = useRef<HTMLTextAreaElement | null>(null);
 
